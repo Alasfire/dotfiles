@@ -1,1 +1,0 @@
-.config/theme-switcher/apply_theme.sh
