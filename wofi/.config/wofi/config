@@ -1,0 +1,25 @@
+# Wofi Config
+
+# Show app icons in drun mode
+show-icons=true
+
+# Terminal to use when opening terminal apps
+term=foot
+
+# Style file (will be dynamically replaced by theme switcher)
+style=${HOME}/.config/wofi/themes/default.css
+
+# Prompt string for dmenu/drun
+prompt=Search
+
+# Hide scrollbar for a cleaner look
+hide-scroll=true
+
+# Number of entries shown at once (vertical list)
+lines=6
+
+# Width of the menu (percentage of screen)
+width=50%
+
+# Allow markup (icon colors, bold, etc)
+allow-markup=true

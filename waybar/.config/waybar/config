@@ -1,0 +1,56 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 36,
+  "modules-left": ["hyprland/workspaces", "bluetooth", "pulseaudio"],
+  "modules-center": ["clock"],
+  "modules-right": ["battery", "memory", "network","tray", "custom/power"],
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "format-icons": {
+      "default": "○",
+      "active": "●"
+    }
+  },
+
+  "bluetooth": {
+    "format": "",
+    "on-click": "blueman-manager"
+  },
+
+  "pulseaudio": {
+    "format": " {volume}%",
+    "format-muted": " Muted",
+    "on-click": "pavucontrol"
+  },
+
+  "clock": {
+    "format": "{:%a %H:%M}"
+  },
+
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-icons": ["", "", "", "", ""],
+    "format-charging": " {capacity}%"
+  },
+
+  "memory": {
+    "format": "󰍛 {used} GB",
+    "interval": 10
+  },
+
+  "network": {
+    "format-wifi": "  {essid}",
+    "format-ethernet": "󰈀 {ifname}",
+    "format-disconnected": "睊",
+    "on-click" : "nm-applet"	
+  },
+
+  "custom/power": {
+    "format": "",
+    "on-click": "wlogout"
+  }
+}
+

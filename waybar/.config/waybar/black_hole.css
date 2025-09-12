@@ -1,0 +1,47 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font Mono", "Noto Sans", sans-serif;
+  font-size: 13px;
+  color: #CFCEDB;
+  border: none;
+  padding: 0 6px;
+}
+
+window#waybar {
+  background: #0B0A18;
+  border-bottom: 2px solid #4f2747;
+  min-height: 36px;
+}
+
+#workspaces {
+  margin-left: 4px;
+}
+
+#workspaces button {
+  color: #CFCEDB;
+  background: transparent;
+  border: none;
+  padding: 0 6px;
+  font-size: 16px;
+}
+
+#workspaces button.active {
+  color: #502444;
+}
+
+#bluetooth,
+#pulseaudio,
+#clock,
+#battery,
+#memory,
+#network,
+#custom-power {
+  background: transparent;
+  padding: 0 6px;
+  margin: 0 2px;
+  color: #CFCEDB;
+}
+
+#battery.charging {
+  color: #A3BE8C;
+}
+
